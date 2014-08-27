@@ -1,0 +1,10 @@
+body{
+    padding: 15px;
+}
+h1{
+    color: coral;
+    font-family: monospace;
+}
+.button{
+    color: darkgreen;
+    font-family: monospace;}
