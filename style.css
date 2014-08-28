@@ -3,8 +3,32 @@ body{
 }
 h1{
     color: coral;
-    font-family: monospace;
-}
+    font-family: monospace;}
+
+
 .button{
     color: darkgreen;
+    font-family: monospace;}
+.button:hover{background-color: deeppink}
+
+.small-box{
+    height: 50px;
+    width: 50px;
+    background: brown;}
+#my-box{
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+
+.big-box{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+}
+
+.jquery-title{
+    color: blue;
     font-family: monospace;}
